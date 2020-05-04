@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="20" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="integration" duration-ms="13047" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:52:11 MSK">
+    <groups>
+      <group name="regression">
+        <method signature="GroupingExample.test3()[pri:0, instance:alltests.GroupingExample@31610302]" name="test3" class="alltests.GroupingExample"/>
+        <method signature="GroupingExample.test4()[pri:0, instance:alltests.GroupingExample@31610302]" name="test4" class="alltests.GroupingExample"/>
+        <method signature="GroupingExample.test5()[pri:0, instance:alltests.GroupingExample@31610302]" name="test5" class="alltests.GroupingExample"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroupingExample.test1()[pri:0, instance:alltests.GroupingExample@31610302]" name="test1" class="alltests.GroupingExample"/>
+        <method signature="GroupingExample.test2()[pri:0, instance:alltests.GroupingExample@31610302]" name="test2" class="alltests.GroupingExample"/>
+        <method signature="GroupingExample.test5()[pri:0, instance:alltests.GroupingExample@31610302]" name="test5" class="alltests.GroupingExample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Request" duration-ms="13047" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:52:11 MSK">
+      <class name="alltests.GroupingExample">
+        <test-method status="PASS" signature="test1()[pri:0, instance:alltests.GroupingExample@31610302]" name="test1" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:alltests.GroupingExample@31610302]" name="test2" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:alltests.GroupingExample@31610302]" name="test4" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:alltests.GroupingExample@31610302]" name="test3" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:alltests.GroupingExample@31610302]" name="test5" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- alltests.GroupingExample -->
+      <class name="alltests.PriorityExample">
+        <test-method status="PASS" signature="TestOne()[pri:0, instance:alltests.PriorityExample@71318ec4]" name="TestOne" duration-ms="3" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method status="PASS" signature="TestTwo()[pri:1, instance:alltests.PriorityExample@71318ec4]" name="TestTwo" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:51:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method status="PASS" signature="TestThree()[pri:2, instance:alltests.PriorityExample@71318ec4]" name="TestThree" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestThree -->
+      </class> <!-- alltests.PriorityExample -->
+      <class name="alltests.AssertionsExample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:alltests.AssertionsExample@3c0f93f1]" name="setup" is-config="true" duration-ms="10151" started-at="2020-05-04T22:51:58 MSK" finished-at="2020-05-04T22:52:08 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:alltests.AssertionsExample@3c0f93f1]" name="logoTest" duration-ms="2284" started-at="2020-05-04T22:52:08 MSK" finished-at="2020-05-04T22:52:10 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:alltests.AssertionsExample@3c0f93f1]" name="tearDown" is-config="true" duration-ms="567" started-at="2020-05-04T22:52:10 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alltests.AssertionsExample -->
+      <class name="alltests.FirstTestCase">
+        <test-method status="PASS" signature="setup()[pri:1, instance:alltests.FirstTestCase@544fe44c]" name="setup" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:alltests.FirstTestCase@544fe44c]" name="login" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:3, instance:alltests.FirstTestCase@544fe44c]" name="teardown" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alltests.FirstTestCase -->
+      <class name="alltests.SecondTestCase">
+        <test-method status="PASS" signature="setup()[pri:1, instance:alltests.SecondTestCase@21213b92]" name="setup" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchCustomer()[pri:3, instance:alltests.SecondTestCase@21213b92]" name="searchCustomer" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method status="PASS" signature="addCustomer()[pri:2, instance:alltests.SecondTestCase@21213b92]" name="addCustomer" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="teardown()[pri:4, instance:alltests.SecondTestCase@21213b92]" name="teardown" duration-ms="0" started-at="2020-05-04T22:52:11 MSK" finished-at="2020-05-04T22:52:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alltests.SecondTestCase -->
+      <class name="alltests.DataProviderExample">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:alltests.DataProviderExample@31dc339b]" name="loginTest" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" data-provider="LoginDataProvider" finished-at="2020-05-04T22:51:58 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:alltests.DataProviderExample@31dc339b]" name="loginTest" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" data-provider="LoginDataProvider" finished-at="2020-05-04T22:51:58 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:alltests.DataProviderExample@31dc339b]" name="loginTest" duration-ms="0" started-at="2020-05-04T22:51:58 MSK" data-provider="LoginDataProvider" finished-at="2020-05-04T22:51:58 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mno@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mno]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- alltests.DataProviderExample -->
+    </test> <!-- Request -->
+  </suite> <!-- integration -->
+</testng-results>

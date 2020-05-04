@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="integration" parallel="methods" thread-count="1">
+    <test name="Request">
+        <classes>
+            <class name="alltests.AssertionsExample" />
+            <class name="alltests.DataProviderExample" />
+<!--            <class name="alltests.DependecyExample" />-->
+            <class name="alltests.FirstTestCase" />
+            <class name="alltests.GroupingExample" />
+<!--            <class name="alltests.ListenerTest" />-->
+<!--            <class name="alltests.ParametersExample" />-->
+            <class name="alltests.PriorityExample" />
+            <class name="alltests.SecondTestCase" />
+        </classes>
+    </test>
+</suite>
